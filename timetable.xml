@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE timeTable SYSTEM "timetable.dtd">
+
+<timeTable>
+    <complexes>
+        <complex code="COMP1">
+            <name>Учебный комплекс №1</name>
+            <address>ул. Ленина, 10, г. Москва</address>
+        </complex>
+        <complex code="COMP2">
+            <name>Учебный комплекс №2</name>
+            <address>ул. Пушкина, 25, г. Санкт-Петербург</address>
+        </complex>
+        <complex code="COMP3">
+            <name>Учебный комплекс №3</name>
+            <address>пр. Мира, 15, г. Казань</address>
+        </complex>
+    </complexes>
+    
+    <lessons>
+        <lesson no="101" complex="COMP1">
+            <date>2025-01-15</date>
+            <time>09:00-10:30</time>
+        </lesson>
+        <lesson no="102" complex="COMP2">
+            <date>2025-01-15</date>
+            <time>11:00-12:30</time>
+        </lesson>
+        <lesson no="103" complex="COMP1">
+            <date>2025-01-15</date>
+            <time>14:00-15:30</time>
+        </lesson>
+        <lesson no="201" complex="COMP3">
+            <date>2025-01-16</date>
+            <time>10:00-11:30</time>
+        </lesson>
+        <lesson no="202" complex="COMP2">
+            <date>2025-01-16</date>
+            <time>13:00-14:30</time>
+        </lesson>
+    </lessons>
+</timeTable>
